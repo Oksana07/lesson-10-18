@@ -1,14 +1,149 @@
-body {
-    /* font-family: 'Raleway', sans-serif; */
-    font-family: "Roboto", sans-serif;
+:root {
+  --accent-color: #2196f3;
+  --header-logo: #000;
+  --footer-logo: #fff;
+  --title-color: #212121;
+  --basic-color: #757575;
+  --bg-color: #2f303a;
+  --footer-ct: rgba(255, 255, 255, 0.6);
 }
 
+body {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+/*  header */
+
 .logo {
-    color: #2196f3;
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.logo-style {
+  color: var(--header-logo);
+}
+
+.logo-style:hover,
+.logo-style:focus{
+    color: var(--accent-color);
+}
+
+.menu-link {
+  color: var(--title-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.menu-link:hover,
+.menu-link:focus{
+color: var(--accent-color);
+}
+
+.header-cont {
+  color: var(--basic-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.header-cont:hover,
+.header-cont:focus{
+color: var(--accent-color);
+}
+
+/*  Герой*/
+.hero {
+  background-color: var(--bg-color);
+}
+
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+  cursor: pointer;
+
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    color: var(--accent-color);
+    background-color: #fff;
+}
+
+/* Наші преваги */
+.advantages-tile{
+color: var(--title-color);
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.78px;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.advantages-text{
+color: var(--basic-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+
+/*  Чим ми займаємося */
+
+
+
+/* footer */
+.footer {
+  background-color: var(--bg-color);
+}
+
+.logo-footer {
+  color: var(--footer-logo);
+}
+
+.logo-footer:hover,
+.logo-footer:focus{
+color: var(--accent-color);
 }
