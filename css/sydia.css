@@ -8,6 +8,26 @@
   --footer-ct: rgba(255, 255, 255, 0.6);
 }
 
+a{
+  text-decoration: none;
+}
+
+li{
+list-style: none;  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul{
+  margin: 0px;
+}
+
+
 body {
   /* font-family: 'Raleway', sans-serif; */
   font-family: "Roboto", sans-serif;
@@ -36,8 +56,10 @@ body {
   letter-spacing: 0.78px;
 }
 
+
+
 .logo-style {
-  color: var(--header-logo);
+  color: var(--header-logo) 
 }
 
 .logo-style:hover,
@@ -131,7 +153,9 @@ color: var(--basic-color);
 }
 
 /*  Чим ми займаємося */
-
+.portfolio-btn{
+  /* border: solid 1px red; */
+}
 
 
 /* footer */
