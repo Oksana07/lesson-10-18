@@ -53,6 +53,14 @@ body {
 }
 
 /*  header */
+.header{
+
+}
+
+.header > .container{
+  display: flex;
+}
+
 .logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
@@ -60,6 +68,9 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+
+  padding-top: 25px;
+  padding-bottom: 24px;
 }
 
 .logo-style {
@@ -73,6 +84,11 @@ body {
 
 .menu-list{
   display: flex;
+  padding-left: 0px;
+  margin-left: 93px;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .menu-item:not(:first-child){
@@ -90,6 +106,12 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
+}
+
+.address{
+padding-top: 32px;
+padding-bottom: 32px;
+margin-left: 344px;
 }
 
 .header-cont {
@@ -126,16 +148,11 @@ margin-left: 50px;
   text-transform: uppercase;
 
   width: 696px;
+
+  margin-bottom: 30px;
 }
 
 .hero-btn {
-  /* padding-top: 10px;
-  padding-left: 32px;
-  padding-bottom: 10px;
-  padding-right: 32px; */
-
-  /* padding: 10px 32px 10px 32px; */
-
   padding: 10px 32px;
 
   color: #fff;
@@ -159,6 +176,15 @@ margin-left: 50px;
 }
 
 /* Наші преваги */
+.advantages{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.advantages-list{
+  display: flex;
+}
+
 .advantages-tile {
   color: var(--title-color);
   font-size: 14px;
@@ -166,6 +192,7 @@ margin-left: 50px;
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .advantages-text {
