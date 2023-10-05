@@ -25,6 +25,7 @@ h6,
 p,
 ul {
   margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -139,6 +140,8 @@ margin-left: 50px;
 }
 
 .hero-title {
+  margin-right: auto;
+  margin-left: auto;
   color: #fff;
   text-align: center;
   font-size: 44px;
@@ -153,6 +156,9 @@ margin-left: 50px;
 }
 
 .hero-btn {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
   padding: 10px 32px;
 
   color: #fff;
@@ -211,6 +217,13 @@ margin-left: 50px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
+
+  margin-bottom: 50px;
+}
+
+.owe-work-list{
+  display: flex;
+  justify-content: center;
 }
 
 /* Наша команда */
@@ -246,6 +259,11 @@ margin-left: 50px;
 }
 
 /* Портфоліо */
+.portfolio-list{
+display: flex;
+justify-content: center;
+}
+
 .portfolio-btn {
   color: var(--title-color);
   text-align: center;
@@ -281,6 +299,11 @@ margin-left: 50px;
   font-weight: 400;
   line-height: 1.87;
   letter-spacing: 0.48px;
+}
+
+.projekt-list{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* footer */
